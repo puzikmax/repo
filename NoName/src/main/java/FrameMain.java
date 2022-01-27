@@ -34,7 +34,11 @@ public class FrameMain {
                 "Добавить пациента");
         submenu.add(menuItemOne);
         menuItemOne.addActionListener(new ActionListener() {
+<<<<<<< HEAD
             @Override
+=======
+
+>>>>>>> 87398a6 (Убрана аннотация)
             public void actionPerformed(ActionEvent e) {
                 JFrame frame = new JFrame("Добавление пациента");
                 frame.pack();
